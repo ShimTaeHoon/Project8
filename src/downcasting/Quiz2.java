@@ -8,7 +8,7 @@ public class Quiz2 {
 
 		ArrayList<Person> list = new ArrayList<Person>();
 		
-		list.add(new Person("둘리"));
+		list.add(new Student("둘리"));
 		list.add(new Employee("또치"));
 		
 		for(Person person : list) {
@@ -17,8 +17,8 @@ public class Quiz2 {
 			if(person instanceof Student) {
 				Student s = (Student) person;
 				s.study();
-			}else if (person instanceof Employee) {
-				Employee employee =(Employee) person;
+			} else if (person instanceof Employee) {
+				Employee employee = (Employee) person;
 				employee.work();
 			}
 			

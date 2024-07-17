@@ -5,10 +5,12 @@ public class Ex1 {
 	public static void main(String[] args) {
 
 		// 형변환 
+		Animal animal = new Animal();
 		Animal human = new Human();
 		Animal tiger = new Tiger();
 		Animal eagle = new Eagle();
 		
+		animal.move();
 		human.move();
 		tiger.move();
 		eagle.move();

@@ -4,6 +4,11 @@ public class Quiz1 {
 
 	public static void main(String[] args) {
 
+		Animal animal = new Animal();
+		Animal animal2 = new Animal();
+		animal.leg = 1;
+		
+		System.out.println(animal.leg);
 		Tiger tiger = new Tiger();
 		Eagle eagle = new Eagle();
 		tiger.getLeg(4);

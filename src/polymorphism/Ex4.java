@@ -26,11 +26,10 @@ public class Ex4 {
 		//회원등급에 따라 할인율과 보너스 포인트 계산
 		for (Customer customer : list) { // 변수 : 리스트
 			customer.calcPrice(10000);
-		}
-		
-		for (Customer customer : list) {
 			customer.showInfo(); // 고객정보 출력
 		}
+		
+		
 		
 	}
 

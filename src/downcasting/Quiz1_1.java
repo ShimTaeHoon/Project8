@@ -15,8 +15,10 @@ public class Quiz1_1 {
 		list.add(new Eagle());
 		
 		// 1번방식
+		// Animal클래스로(부모클래스)로 자식클래스의 메서드를 사용하기위해?
 		for(Animal ani : list) {
 			if (ani instanceof Human) {
+				// ani를 Human타입으로 변경하고 h참조변수에 주소값을 담아라.
 				Human h = (Human) ani;
 				h.readBook();
 			} else if (ani instanceof Tiger) {

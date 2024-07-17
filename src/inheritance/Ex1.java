@@ -9,6 +9,8 @@ public class Ex1 {
 		child.nationality = "한국"; // 부모클래스에서 물려받은 속성
 		child.lastName = "고"; // 부모클래스에서 물려받은 속성
 		child.firstName = "길동"; // 본인 속성
+		
+		System.out.println(child.nationality);
 
 	}
 

@@ -5,8 +5,16 @@ public class Ex1 {
 	public static void main(String[] args) {
 
 		// 형변환
+		// Animal클래스의 animal 참조변수에
+		// 자식클래스인 Human 인스턴스를 생성하면
+		// 제약으로 인해 Human클래스의 readbook 메소드를 사용하지 못함
+		// (있긴 있으나 사용은 x)
+		// 그러나 아래의 다운캐스팅을 진행하면 사용가능하다.
 		Animal animal = new Human();
 		
+		animal.move();
+//		animal.readBook(); // 자식클래스의 readbook 사용불가.
+			
 		// 1. 실제 인스턴스 타입이 Human인지 확인
 		// 앞에는 변수 animal 뒤에는 클래스 Human
 		if (animal instanceof Human) {

@@ -27,7 +27,7 @@ class BasicTV {
 	String powerSt;
 	int channel;
 	int volume;
-
+	
 	public void showInfo() {
 		System.out.println("전원 : " + powerSt + " 채널 : " + channel + " 볼륨 : " + volume);
 	}

@@ -3,10 +3,9 @@ package typecasting;
 public class Ex1 {
 
 	public static void main(String[] args) {
-
+		
 		VIPCustomer vipCustomer = new VIPCustomer();
-
-
+		
 	}
 
 }
